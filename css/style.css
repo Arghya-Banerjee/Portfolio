@@ -65,6 +65,59 @@ img{
     line-height: 1.6;
 }
 
+.section {
+    padding: 7rem 0;
+    overflow: hidden;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1rem;
+    line-height: 1;
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+}
+  
+.title:before {
+    content: attr(data-title);
+    display: block;
+    margin-bottom: 0.4rem;
+    color: var(--main-color);
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+  
+.title:after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.section-header .text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.title-sm {
+    color: var(--dark-one);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
 
 
 /* SPECIFIC STYLING */
