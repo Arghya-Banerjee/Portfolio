@@ -235,14 +235,44 @@ nav .container{
     font-size: 1.25rem;
 }
 
-.left-wave{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* height: 100%; */
+/* Header Ending */
+
+
+
+/* SkillSet */
+
+.card{
+    max-width: 390px;
+    min-height: 520px;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
     overflow: hidden;
-    line-height: 0;
 }
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-wrap{
+    margin: 1.7rem 0.8rem;
+}
+
+.icon{
+    width: 90px;
+    margin-bottom: 1.7rem;
+}
+
+.card .title-sm{
+    line-height: 0.8;
+}
+
+
+
+/* Skillset Ending */
