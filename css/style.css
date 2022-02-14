@@ -3,7 +3,7 @@
 /* COLOR  */
 
 :root{
-    --background-color: #e9ebec;
+    --background-color: #edf2f5;
     --dark-one: #333;
     --dark-two: #7a7a7a;
     --main-color: #24afda;
@@ -242,6 +242,8 @@ nav .container{
 /* SkillSet */
 
 .card{
+    position: relative;
+    width: 100%;
     max-width: 390px;
     min-height: 520px;
     background-color: var(--background-color);
@@ -271,6 +273,28 @@ nav .container{
 
 .card .title-sm{
     line-height: 0.8;
+}
+
+.card .text{
+    font-size: 1.2rem;
+    margin: 1.8rem 0;
+}
+
+.btn.small{
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
+}
+
+.card:before{
+    content: attr(data-card);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--main-color);
+    opacity: 0.1;
 }
 
 
