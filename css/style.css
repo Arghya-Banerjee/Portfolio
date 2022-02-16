@@ -3,9 +3,9 @@
 /* COLOR  */
 
 :root{
-    --background-color: #edf2f5;
-    --dark-one: #333;
-    --dark-two: #7a7a7a;
+    --background-color: #222222;
+    --dark-one: rgb(31, 31, 31);
+    --dark-two: #272626;
     --main-color: #24afda;
     --light-color: #fff;
     --light-two: #f9fafb;
@@ -65,7 +65,13 @@ img{
     justify-content: center;
 }
 
-.text{
+.light_text{
+    font-size: 1.25rem;
+    color: var(--light-color);
+    line-height: 1.6;
+}
+
+.dark_text{
     font-size: 1.25rem;
     color: var(--dark-one);
     line-height: 1.6;
@@ -114,7 +120,7 @@ img{
 }
   
 .title-sm {
-    color: var(--dark-one);
+    color: var(--light-color);
     font-weight: 600;
     font-size: 1.6rem;
 }
