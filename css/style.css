@@ -71,6 +71,10 @@ img{
     line-height: 1.6;
 }
 
+.header-content .text {
+    margin: 2.15rem 0;
+}
+
 .section {
     padding: 7rem 0;
     overflow: hidden;
